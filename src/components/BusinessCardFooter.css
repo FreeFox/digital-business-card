@@ -1,0 +1,40 @@
+.footer {
+    height: 64px;
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.white .footer {
+    height: 64px;
+    background: #d5d4d8;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding-inline-start: 0px;
+    padding: 19px 40px;
+}
+
+.icon-twitter {
+    background: url(images/twitter-icon.png) no-repeat;
+}
+
+.icon-facebook {
+    background: url(images/facebook-icon.png) no-repeat;
+}
+
+.icon-github {
+    background: url(images/github-icon.png) no-repeat;
+}
+
+.icon-instagram {
+    background: url(images/instagram-icon.png) no-repeat;
+}
+
+.social-icons [class^='icon-'] {
+    float: left;
+    width: 25px;
+    height: 26px;
+}

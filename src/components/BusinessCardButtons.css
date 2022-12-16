@@ -1,0 +1,62 @@
+.business-card__personal__data {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 8px;
+}
+
+.business-card__email {
+    text-decoration: none;
+    color: #374151;
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 15px;
+    gap: 8px;
+    flex-basis: auto;
+    flex-grow: 1;
+    font-size: 14px;
+}
+
+.icon-email {
+    background: url(images/email-icon.png) no-repeat;
+    float: left;
+    width: 13px;
+    height: 10px;
+}
+
+.business-card__linkedin {
+    text-decoration: none;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 5px 5px 5px;
+    gap: 8px;
+    height: 30px;
+    background: #5093e2;
+    border: 1px solid #5093e2;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    flex-basis: auto;
+    flex-grow: 1;
+    font-size: 14px;
+}
+
+.white .business-card__linkedin {
+    background: #297fe5;
+    border: 1px solid #297fe5;
+}
+
+.icon-linkedin {
+    background: url(images/linkedin-icon.png) no-repeat;
+    float: left;
+    width: 14px;
+    height: 14px;
+}

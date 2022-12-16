@@ -1,0 +1,16 @@
+.business-card__content__about > h3, .business-card__content__interests > h3 {
+    font-size: 16px;
+    color: #f5f5f5;
+}
+
+.white .business-card__content__about > h3, .white .business-card__content__interests > h3 {
+    color: #2b283a;
+}
+
+.business-card__content__about, .business-card__content__interests {
+    color: #dcdcdc;
+}
+
+.white .business-card__content__about, .white .business-card__content__interests {
+    color: #4a4e74;
+}

@@ -1,0 +1,26 @@
+.white {
+    color: #2b283a;
+}
+
+.business-card-wrapper {
+    background-color: #23252c;
+    display: flex;
+}
+
+.business-card {
+    width: 52%;
+    margin: 40px auto;
+    background-color: #1a1b21;
+    min-width: 302px;
+    border-radius: 10px;
+}
+
+.business-card.white {
+    background-color: #f5f5f5;
+}
+
+.business-card-inner-wrapper {
+    font-size: 10px;
+    margin: 15px 30px 20px 30px;
+}
+

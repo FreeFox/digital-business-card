@@ -1,0 +1,12 @@
+.business-card__content__title > h5 {
+    color: #f3bf99;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    margin-block-start: 0em;
+    margin-block-end: 0.5em;
+}
+
+.white .business-card__content__title > h5 {
+    color: #f47d27;
+}
